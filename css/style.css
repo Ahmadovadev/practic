@@ -56,11 +56,14 @@ button {
   background: linear-gradient(94.66deg, #4499d9 17.46%, #7367be 87.77%);
 }
 
+.main {
+  display: flex;
+  justify-content: space-between;
+}
 .main-text {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-
   gap: 30px;
 }
 
@@ -89,15 +92,9 @@ button {
   line-height: 29px;
 }
 
-/* .main-img {
-  display: flex;
-  justify-content: flex-end;
-  gap: 30px;
-  top: 142px;
-} */
-
 .about {
   display: flex;
+  justify-content: space-between;
 }
 
 .about-text {
@@ -131,11 +128,10 @@ button {
   height: 566px;
 }
 
-/* .plan {
+.plan {
   display: flex;
-  justify-content: flex-end;
-  gap: 30px;
-} */
+  justify-content: space-between;
+}
 
 .plan-text {
   display: flex;
